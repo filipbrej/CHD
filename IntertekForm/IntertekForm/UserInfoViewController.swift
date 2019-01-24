@@ -118,7 +118,7 @@ class UserInfoViewController: UIViewController, UIPickerViewDataSource, UIPicker
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController!.navigationBar.barTintColor = UIColor(red: 253/255, green: 186/255, blue: 19/255, alpha: 1)
+        navigationController!.navigationBar.barTintColor = UIColor(red:1.00, green:0.77, blue:0.04, alpha:1.0)
         addLogoTitle()
         
         // sets United States as default selection in picker

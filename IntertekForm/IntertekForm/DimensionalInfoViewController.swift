@@ -30,7 +30,7 @@ class DimensionalInfoViewController: UIViewController, UIPickerViewDelegate, UIP
         nextPageButton.layer.backgroundColor = UIColor.lightGray.cgColor
         
         addLogoTitle()
-        navigationController!.navigationBar.barTintColor = UIColor(red: 253/255, green: 186/255, blue: 19/255, alpha: 1)
+        navigationController!.navigationBar.barTintColor = UIColor(red:1.00, green:0.77, blue:0.04, alpha:1.0)
         navigationController!.navigationBar.tintColor = UIColor.black
         
         scrollView.keyboardDismissMode = .onDrag
