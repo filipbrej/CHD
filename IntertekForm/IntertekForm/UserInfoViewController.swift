@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Page1VC: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
+class UserInfoViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
     
     @IBOutlet weak var scrollView: UIScrollView!

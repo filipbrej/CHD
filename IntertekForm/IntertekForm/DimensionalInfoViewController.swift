@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Page3VC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITableViewDelegate, UITableViewDataSource {
+class DimensionalInfoViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITableViewDelegate, UITableViewDataSource {
     
     // **PICKER VIEWS**
     @IBOutlet weak var lengthPicker: UIPickerView!

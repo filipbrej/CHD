@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Page1VC-->
+        <!--User Info View Controller-->
         <scene sceneID="iBo-xd-6bD">
             <objects>
-                <viewController id="8Ss-3c-bOh" customClass="Page1VC" customModule="IntertekForm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8Ss-3c-bOh" customClass="UserInfoViewController" customModule="IntertekForm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="awc-7q-Pld" userLabel="MainView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -231,10 +231,10 @@
             </objects>
             <point key="canvasLocation" x="4977.1875" y="-276.76056338028167"/>
         </scene>
-        <!--Page2VC-->
+        <!--General Object View Controller-->
         <scene sceneID="Si0-3e-BzH">
             <objects>
-                <viewController id="5kv-qn-Zch" customClass="Page2VC" customModule="IntertekForm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5kv-qn-Zch" customClass="GeneralObjectViewController" customModule="IntertekForm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n1t-oU-WQh" userLabel="Main View">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1720"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -481,10 +481,10 @@
             </objects>
             <point key="canvasLocation" x="5832.1875" y="-332.74647887323943"/>
         </scene>
-        <!--Page3VC-->
+        <!--Dimensional Info View Controller-->
         <scene sceneID="0hS-h0-qhm">
             <objects>
-                <viewController id="fkC-oR-8Ag" customClass="Page3VC" customModule="IntertekForm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fkC-oR-8Ag" customClass="DimensionalInfoViewController" customModule="IntertekForm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GhM-pO-Elw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1430"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -672,10 +672,10 @@
             </objects>
             <point key="canvasLocation" x="6780" y="-601.47783251231533"/>
         </scene>
-        <!--Page4VC-->
+        <!--Material Prop View Controller-->
         <scene sceneID="uMc-B6-MjX">
             <objects>
-                <viewController id="cDj-L0-rdx" customClass="Page4VC" customModule="IntertekForm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cDj-L0-rdx" customClass="MaterialPropViewController" customModule="IntertekForm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eaf-QC-Uyp" userLabel="Main View">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -876,10 +876,10 @@
             </objects>
             <point key="canvasLocation" x="7716.5625" y="-828.16901408450701"/>
         </scene>
-        <!--Page5VC-->
+        <!--Clinical View Controller-->
         <scene sceneID="fFX-zh-KG3">
             <objects>
-                <viewController id="FHE-xH-vfN" customClass="Page5VC" customModule="IntertekForm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="FHE-xH-vfN" customClass="ClinicalViewController" customModule="IntertekForm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FkG-7u-t7U" userLabel="Main View">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="2300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

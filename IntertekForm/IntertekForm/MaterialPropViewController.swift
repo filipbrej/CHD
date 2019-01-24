@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Page4VC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIPickerViewDelegate, UIPickerViewDataSource {
+class MaterialPropViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIPickerViewDelegate, UIPickerViewDataSource {
     
     // **BUTTONS**
     @IBOutlet weak var nextPageButton: UIButton!

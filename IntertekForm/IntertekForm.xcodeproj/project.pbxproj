@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1842353AAA68162CF5BC885F /* Pods_IntertekForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A26ABC8F06D805E4AE997C0 /* Pods_IntertekForm.framework */; };
-		B3200A662161416D00520E91 /* Page2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3200A652161416D00520E91 /* Page2VC.swift */; };
-		B352D415216D9A9F004FFF05 /* Page5VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352D414216D9A9F004FFF05 /* Page5VC.swift */; };
+		B3200A662161416D00520E91 /* GeneralObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3200A652161416D00520E91 /* GeneralObjectViewController.swift */; };
+		B352D415216D9A9F004FFF05 /* ClinicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352D414216D9A9F004FFF05 /* ClinicalViewController.swift */; };
 		B35D0F20215829DB003FB446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35D0F1F215829DB003FB446 /* AppDelegate.swift */; };
-		B35D0F22215829DB003FB446 /* Page1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35D0F21215829DB003FB446 /* Page1VC.swift */; };
+		B35D0F22215829DB003FB446 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35D0F21215829DB003FB446 /* UserInfoViewController.swift */; };
 		B35D0F25215829DB003FB446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35D0F23215829DB003FB446 /* Main.storyboard */; };
 		B35D0F27215829DB003FB446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35D0F26215829DB003FB446 /* Assets.xcassets */; };
 		B35D0F2A215829DB003FB446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35D0F28215829DB003FB446 /* LaunchScreen.storyboard */; };
@@ -33,8 +33,8 @@
 		B380B25021B0E4F6007C550D /* cell-battery.png in Resources */ = {isa = PBXBuildFile; fileRef = B380B23F21B0E4F6007C550D /* cell-battery.png */; };
 		B380B25121B0E4F6007C550D /* coin.png in Resources */ = {isa = PBXBuildFile; fileRef = B380B24021B0E4F6007C550D /* coin.png */; };
 		B380B25221B0E4F6007C550D /* peg.png in Resources */ = {isa = PBXBuildFile; fileRef = B380B24121B0E4F6007C550D /* peg.png */; };
-		B38A9D84216A88CF009378C0 /* Page3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A9D83216A88CF009378C0 /* Page3VC.swift */; };
-		B38A9D86216A88E5009378C0 /* Page4VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A9D85216A88E5009378C0 /* Page4VC.swift */; };
+		B38A9D84216A88CF009378C0 /* DimensionalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A9D83216A88CF009378C0 /* DimensionalInfoViewController.swift */; };
+		B38A9D86216A88E5009378C0 /* MaterialPropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A9D85216A88E5009378C0 /* MaterialPropViewController.swift */; };
 		B3A1F644217D2DD400EEBA7C /* ShapeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A1F643217D2DD400EEBA7C /* ShapeCell.swift */; };
 		B3AC3F31218FC4F300CDBBF3 /* RecordingButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AC3F30218FC4F300CDBBF3 /* RecordingButtonAnimation.swift */; };
 /* End PBXBuildFile section */
@@ -43,11 +43,11 @@
 		2200BBB66B1DE120D2682EAC /* Pods-IntertekForm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntertekForm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntertekForm/Pods-IntertekForm.debug.xcconfig"; sourceTree = "<group>"; };
 		3A26ABC8F06D805E4AE997C0 /* Pods_IntertekForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntertekForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5ED352C08FF64DDE6CA0281 /* Pods-IntertekForm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntertekForm.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntertekForm/Pods-IntertekForm.release.xcconfig"; sourceTree = "<group>"; };
-		B3200A652161416D00520E91 /* Page2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2VC.swift; sourceTree = "<group>"; };
-		B352D414216D9A9F004FFF05 /* Page5VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page5VC.swift; sourceTree = "<group>"; };
+		B3200A652161416D00520E91 /* GeneralObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralObjectViewController.swift; sourceTree = "<group>"; };
+		B352D414216D9A9F004FFF05 /* ClinicalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicalViewController.swift; sourceTree = "<group>"; };
 		B35D0F1C215829DB003FB446 /* IntertekForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntertekForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35D0F1F215829DB003FB446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B35D0F21215829DB003FB446 /* Page1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1VC.swift; sourceTree = "<group>"; };
+		B35D0F21215829DB003FB446 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		B35D0F24215829DB003FB446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B35D0F26215829DB003FB446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B35D0F29215829DB003FB446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,8 +70,8 @@
 		B380B23F21B0E4F6007C550D /* cell-battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell-battery.png"; sourceTree = "<group>"; };
 		B380B24021B0E4F6007C550D /* coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coin.png; sourceTree = "<group>"; };
 		B380B24121B0E4F6007C550D /* peg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peg.png; sourceTree = "<group>"; };
-		B38A9D83216A88CF009378C0 /* Page3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3VC.swift; sourceTree = "<group>"; };
-		B38A9D85216A88E5009378C0 /* Page4VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4VC.swift; sourceTree = "<group>"; };
+		B38A9D83216A88CF009378C0 /* DimensionalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimensionalInfoViewController.swift; sourceTree = "<group>"; };
+		B38A9D85216A88E5009378C0 /* MaterialPropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialPropViewController.swift; sourceTree = "<group>"; };
 		B3A1F643217D2DD400EEBA7C /* ShapeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeCell.swift; sourceTree = "<group>"; };
 		B3AC3F30218FC4F300CDBBF3 /* RecordingButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingButtonAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,11 +127,11 @@
 			isa = PBXGroup;
 			children = (
 				B35D0F23215829DB003FB446 /* Main.storyboard */,
-				B35D0F21215829DB003FB446 /* Page1VC.swift */,
-				B3200A652161416D00520E91 /* Page2VC.swift */,
-				B38A9D83216A88CF009378C0 /* Page3VC.swift */,
-				B38A9D85216A88E5009378C0 /* Page4VC.swift */,
-				B352D414216D9A9F004FFF05 /* Page5VC.swift */,
+				B35D0F21215829DB003FB446 /* UserInfoViewController.swift */,
+				B3200A652161416D00520E91 /* GeneralObjectViewController.swift */,
+				B38A9D83216A88CF009378C0 /* DimensionalInfoViewController.swift */,
+				B38A9D85216A88E5009378C0 /* MaterialPropViewController.swift */,
+				B352D414216D9A9F004FFF05 /* ClinicalViewController.swift */,
 				B3AC3F30218FC4F300CDBBF3 /* RecordingButtonAnimation.swift */,
 				B3A1F643217D2DD400EEBA7C /* ShapeCell.swift */,
 				B35D0F26215829DB003FB446 /* Assets.xcassets */,
@@ -306,14 +306,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B35D0F22215829DB003FB446 /* Page1VC.swift in Sources */,
-				B3200A662161416D00520E91 /* Page2VC.swift in Sources */,
+				B35D0F22215829DB003FB446 /* UserInfoViewController.swift in Sources */,
+				B3200A662161416D00520E91 /* GeneralObjectViewController.swift in Sources */,
 				B3AC3F31218FC4F300CDBBF3 /* RecordingButtonAnimation.swift in Sources */,
 				B35D0F20215829DB003FB446 /* AppDelegate.swift in Sources */,
-				B38A9D84216A88CF009378C0 /* Page3VC.swift in Sources */,
+				B38A9D84216A88CF009378C0 /* DimensionalInfoViewController.swift in Sources */,
 				B3A1F644217D2DD400EEBA7C /* ShapeCell.swift in Sources */,
-				B352D415216D9A9F004FFF05 /* Page5VC.swift in Sources */,
-				B38A9D86216A88E5009378C0 /* Page4VC.swift in Sources */,
+				B352D415216D9A9F004FFF05 /* ClinicalViewController.swift in Sources */,
+				B38A9D86216A88E5009378C0 /* MaterialPropViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
