@@ -48,7 +48,6 @@ class UserInfoViewController: UIViewController {
     
     // adds company logo to navigation bar
     func setupNavBar() {
-        
         let navController = navigationController!
         navController.navigationBar.barTintColor = UIColor(red: 1.0, green: 0.78, blue: 0.04, alpha: 1)
 
@@ -78,13 +77,10 @@ extension UserInfoViewController: UIPickerViewDataSource, UIPickerViewDelegate {
     // returns correct amount of rows for each picker
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         var countRows = Int()
-        
         if pickerView == hospitalCountryPicker {
             countRows = Country.all.count
-            
         } else if pickerView == genderPicker {
             countRows = Gender.all.count
-            
         } else if pickerView == agePicker {
             countRows = Age.all.count
         }
@@ -93,7 +89,6 @@ extension UserInfoViewController: UIPickerViewDataSource, UIPickerViewDelegate {
     
     // returns correct data for picker views
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        
         if pickerView == hospitalCountryPicker {
             return Country.all[row].country
         } else if pickerView == genderPicker {
