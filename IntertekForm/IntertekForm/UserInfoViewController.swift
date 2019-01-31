@@ -67,6 +67,7 @@ class UserInfoViewController: UIViewController {
     }
 }
 
+
 // MARK: - Picker View Controller
 extension UserInfoViewController: UIPickerViewDataSource, UIPickerViewDelegate {
     
@@ -77,10 +78,11 @@ extension UserInfoViewController: UIPickerViewDataSource, UIPickerViewDelegate {
     // returns correct amount of rows for each picker
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         var countRows = Int()
+        
         if pickerView == hospitalCountryPicker {
             countRows = Country.all.count
         } else if pickerView == genderPicker {
-            countRows = Gender.all.count
+            countRows = Gender.allCases.count
         } else if pickerView == agePicker {
             countRows = Age.all.count
         }
@@ -92,11 +94,10 @@ extension UserInfoViewController: UIPickerViewDataSource, UIPickerViewDelegate {
         if pickerView == hospitalCountryPicker {
             return Country.all[row].country
         } else if pickerView == genderPicker {
-            return Gender.all[row].gender
+            return Gender.allCases[row].gender
         } else if pickerView == agePicker {
             return Age.all[row].age
         }
         return ""
     }
-    
 }
