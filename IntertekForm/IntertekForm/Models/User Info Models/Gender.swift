@@ -8,13 +8,17 @@
 
 import Foundation
 
-struct Gender {
+enum Gender: Int, CaseIterable {
+    case male
+    case female
+    static var count: Int { return Gender.female.hashValue + 1 }
     
-    var gender: String
-    
-    static var all: [Gender] {
-        return [Gender(gender: "Male"),
-                Gender(gender: "Female")
-        ]
+    var gender: String {
+        switch self {
+        case .male:
+            return "Male"
+        case .female:
+            return "Female"
+        }
     }
 }
