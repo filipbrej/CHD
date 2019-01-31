@@ -11,7 +11,6 @@ import Foundation
 enum Gender: Int, CaseIterable {
     case male
     case female
-    static var count: Int { return Gender.female.hashValue + 1 }
     
     var gender: String {
         switch self {
