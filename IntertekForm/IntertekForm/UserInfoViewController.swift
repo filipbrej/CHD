@@ -98,7 +98,7 @@ extension UserInfoViewController: UIPickerViewDataSource, UIPickerViewDelegate {
             return Gender.allCases[row].gender
         }
         else if pickerView == agePicker {
-            guard let age = Int(Age.all[row].ageMonths) else { return nil }
+            guard let age = Optional(Age.all[row].ageMonths) else { return nil }
             
             switch age {
             case 1:
