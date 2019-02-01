@@ -9,18 +9,15 @@
 import Foundation
 
 struct Age {
-    
-    var age: String
-    
+    var ageMonths: String
     
     static var all: [Age] {
         var ageArray = [Age]()
-        ageArray.append(Age(age: "1 month old"))
-        for month in 2...24 {
-            ageArray.append(Age(age: "\(month) months old"))
+        for months in 1...24 { // adds months 1 through 24
+            ageArray.append(Age(ageMonths: String(months)))
         }
-        for year in 3...17 {
-            ageArray.append(Age(age: "\(year) years old"))
+        for months in Array(stride(from: 36, through: 204, by: 12)) { // adds years 3 through 17
+            ageArray.append(Age(ageMonths: String(months)))
         }
         return ageArray
     }
