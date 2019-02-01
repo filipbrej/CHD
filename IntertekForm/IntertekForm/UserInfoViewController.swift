@@ -38,7 +38,7 @@ class UserInfoViewController: UIViewController {
         hospitalCountryPicker.selectRow(238, inComponent: 0, animated: true)
         
         // sets age default to 6 months old
-        agePicker.selectRow(19, inComponent: 0, animated: true)
+        agePicker.selectRow(23, inComponent: 0, animated: true)
         
         // nextPageButton attributes
         nextPageButton.layer.cornerRadius = 15
@@ -50,7 +50,7 @@ class UserInfoViewController: UIViewController {
     func setupNavBar() {
         let navController = navigationController!
         navController.navigationBar.barTintColor = UIColor(red: 1.0, green: 0.78, blue: 0.04, alpha: 1)
-
+        
         let image = UIImage(named: "logo")
         let imageView = UIImageView(image: image)
         
@@ -93,10 +93,21 @@ extension UserInfoViewController: UIPickerViewDataSource, UIPickerViewDelegate {
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         if pickerView == hospitalCountryPicker {
             return Country.all[row].country
-        } else if pickerView == genderPicker {
+        }
+        else if pickerView == genderPicker {
             return Gender.allCases[row].gender
-        } else if pickerView == agePicker {
-            return Age.all[row].age
+        }
+        else if pickerView == agePicker {
+            guard let age = Int(Age.all[row].ageMonths) else { return nil }
+            
+            switch age {
+            case 1:
+                return "\(age) month old"
+            case 2..<36:
+                return "\(age) months old"
+            default:
+                return "\(Int(floor(Double(age)/12))) years old"
+            }
         }
         return ""
     }
