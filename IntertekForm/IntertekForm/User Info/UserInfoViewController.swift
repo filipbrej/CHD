@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  UserInfoViewController.swift
 //  IntertekForm
 //
 //  Created by Filip Brej on 9/23/18.
@@ -12,15 +12,15 @@ class UserInfoViewController: UIViewController {
     
     @IBOutlet weak var scrollView: UIScrollView!
     
-    // MARK: - Buttons
+    // Buttons
     @IBOutlet weak var nextPageButton: UIButton!
     
-    // MARK: - Text fields
+    // Text fields
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var doctorNameField: UITextField!
     @IBOutlet weak var hospitalNameField: UITextField!
     
-    // MARK: - Picker Views
+    // Picker Views
     @IBOutlet weak var hospitalCountryPicker: UIPickerView!
     @IBOutlet weak var incidentDatePicker: UIDatePicker!
     @IBOutlet weak var genderPicker: UIPickerView!
@@ -70,7 +70,6 @@ class UserInfoViewController: UIViewController {
 
 // MARK: - Picker View Controller
 extension UserInfoViewController: UIPickerViewDataSource, UIPickerViewDelegate {
-    
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
