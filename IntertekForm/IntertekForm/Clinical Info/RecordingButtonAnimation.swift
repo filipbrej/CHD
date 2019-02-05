@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+// TODO: - Make button animate by flashing while recording audio
 extension UIButton {
     
     // makes button blink when audio is being recorded
