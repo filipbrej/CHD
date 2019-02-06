@@ -8,6 +8,7 @@
 
 import UIKit
 
+// First page of the survey
 class UserInfoViewController: UIViewController {
     
     @IBOutlet weak var scrollView: UIScrollView!
