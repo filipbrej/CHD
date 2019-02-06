@@ -8,6 +8,7 @@
 
 import UIKit
 
+// Fourth page of the survey
 class MaterialPropViewController: UIViewController {
     
     // Buttons
@@ -21,7 +22,6 @@ class MaterialPropViewController: UIViewController {
     
     // Picker Views
     @IBOutlet weak var materialPicker: UIPickerView!
-    
     
     var material: Material?         // material picker data
     var consistency: Consistency?   // consistency table data
