@@ -20,11 +20,8 @@ class ShapeCell: UICollectionViewCell {
                 self.layer.backgroundColor =  UIColor(red: 253/255, green: 186/255, blue: 19/255, alpha: 1 ).cgColor
             }
             else {
-                
                 self.layer.backgroundColor =  UIColor.white.cgColor
             }
-            
         }
     }
-    
 }
