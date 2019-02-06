@@ -10,6 +10,7 @@ import UIKit
 import Speech
 import AVFoundation
 
+// Final page of the survey 
 class ClinicalInfoViewController: UIViewController, UITextViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     var status = SpeechStatus.ready // ready to record audio
