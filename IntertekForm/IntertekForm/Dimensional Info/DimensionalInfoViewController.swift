@@ -8,6 +8,7 @@
 
 import UIKit
 
+// Third page of the survey
 class DimensionalViewController: UIViewController {
     
     // Picker Views
